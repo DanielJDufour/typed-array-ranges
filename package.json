@@ -1,0 +1,34 @@
+{
+  "name": "typed-array-ranges",
+  "version": "0.0.0",
+  "description": "Get the Smallest and Largest Possible Numbers for a Typed Array",
+  "main": "typed-array-ranges.js",
+  "files": [
+    "typed-array-ranges.js",
+    "get-min.js",
+    "get-max.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=120 --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/typed-array-ranges.git"
+  },
+  "keywords": [
+    "array",
+    "largest",
+    "math",
+    "max",
+    "min",
+    "smallest",
+    "typed"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/typed-array-ranges/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/typed-array-ranges#readme"
+}
