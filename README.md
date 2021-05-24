@@ -7,7 +7,7 @@ npm install typed-array-ranges
 ```
 
 # usage
-```
+```js
 const { getMax, getMin, getRange } = require("typed-array-ranges");
 
 const max = getMax('Uint8Array');
